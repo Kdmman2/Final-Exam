@@ -1,0 +1,130 @@
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  min-width: 650px; max-width: 1280px;
+  box-shadow: 0 0 30px #000000
+}
+html{
+  background-color: #b07c30;
+  font-family: serif;
+  color: #222222
+}
+#pic1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
+}
+#nav1{
+  text-align: center;
+  width: 100%;
+}
+#footer1{
+  text-align: center;
+  border-top: 2px solid black;
+  margin: auto;
+  width: 95%;
+  font-size: 25px;
+}
+#bar{
+  border: 2px solid black;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #0066ee;
+}
+.nav2{
+  text-align: center;
+}
+#bold{
+  font-weight: bold;
+}
+#bold2{
+  font-weight: bold;
+  border-bottom: 2px solid black
+}
+#ital{
+  font-style: italic;
+}
+#indent{
+  display: block;
+  padding-left: 10px;
+}
+#span3{
+  text-align: right;
+  border-top: 2px solid black;
+}
+.bodypic{
+  width: 40%;
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+h1{
+  font-size: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-family: serif;
+  color: #222222
+}
+p{
+  font-size: 20px;
+  margin: 40px;
+  font-family: serif;
+  color: #222222
+}
+#footer2{
+  text-align: center;
+  border-top: 2px solid #b07c30;
+  margin: auto;
+  width: 95%;
+  font-size: 25px;
+}
+#rightbox{
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+  box-shadow: -20px 0px 10px 1px #D0B690;
+  background-color: #F1F1F1;
+  width: 40%;
+  float: right;
+  margin-bottom: 20px;
+}
+#leftbox{
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+  box-shadow: -20px 0px 10px 1px #D0B690;
+  background-color: #F1F1F1;
+  width: 40%;
+  float: left;
+  margin-bottom: 20px;
+}
+#para{
+  display: block;
+  width: 40%;
+  float left;
+}
+#form{
+  display: block;
+  width: 40%;
+  float: right;
+}
+@media screen and (min-width: 1500px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5
+  }
+  #pic1 {
+    width: 600px;
+  }
+  .bodypic {
+    width: 600px;
+  }
+}
